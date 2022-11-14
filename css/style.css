@@ -77,6 +77,11 @@ body {
 .my_slides {
   display: none;
 }
+.slidepicture{
+  width: 100%;
+  height: auto;
+
+}
 
 .prev,
 .next {
@@ -151,4 +156,15 @@ body {
   to {
     opacity: 1
   }
+}
+h1 {
+  text-align: center;
+  font-family: var(--font_titel);
+  padding: 2rem 0;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--font_subtitel);
+  padding: 2rem 0 4rem 0;
 }

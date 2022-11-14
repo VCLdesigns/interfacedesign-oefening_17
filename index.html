@@ -26,34 +26,40 @@
 </head>
 
 <body>
+    <header>
+        <h1>Oefening 17</h1>
+    </header>
 
-
-    <div class="slideshow_container">
-        <div class="my_slides fade">
-            <div class="numbertext">1/3</div>
-            <img src="img/moon1.jpg" alt="" width="1200" height="721">
-            <div class="text">Full Moon</div>
+    <main>
+        <div class="slideshow_container">
+            <div class="my_slides fade">
+                <div class="numbertext">1/3</div>
+                <img class="slidepicture" src="img/moon1.jpg" alt="" width="1200" height="721">
+                <div class="text">Full Moon</div>
+            </div>
+            <div class="my_slides fade">
+                <div class="numbertext">2/3</div>
+                <img class="slidepicture" src="img/moon2.jpg" alt="" width="1200" height="801">
+                <div class="text">Fading moon over mountain</div>
+            </div>
+            <div class="my_slides fade">
+                <div class="numbertext">3/3</div>
+                <img class="slidepicture" src="img/moon3.jpg" alt="" width="1200" height="801">
+                <div class="text">Full Moon over mountain</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <br>
         </div>
-        <div class="my_slides fade">
-            <div class="numbertext">2/3</div>
-            <img src="img/moon2.jpg" alt="" width="1200" height="801">
-            <div class="text">Fading moon over mountain</div>
-        </div>
-        <div class="my_slides fade">
-            <div class="numbertext">3/3</div>
-            <img src="img/moon3.jpg" alt="" width="1200" height="801">
-            <div class="text">Full Moon over mountain</div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        <br>
-    </div>
-
+    </main>
+    <footer>
+        <h6>Bart Victor Loots &copy 2022</h6> <h6>Interfacedesign @ Encora</h6>
+    </footer>
     <script src="js/index.js"></script>
 </body>
 
